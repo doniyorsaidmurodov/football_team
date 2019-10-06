@@ -7,9 +7,11 @@ export const Tag = (props) => {
             background: props.bck,
             fontSize: props.size,
             color: props.color,
+            marginBottom: props.mb,
             padding: '5px 10px',
             display: 'inline-block',
-            fontFamily: 'Righteous'
+            fontFamily: 'Righteous',
+            ...props.add
         }}
     >
         {props.children}
