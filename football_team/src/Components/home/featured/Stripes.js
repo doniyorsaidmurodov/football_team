@@ -35,7 +35,7 @@ class Stripes extends Component {
             <Animate
                 key={i}
                 show={true}
-
+                
                 start={{
                     background:'#98c5e9',
                     opacity:0,
